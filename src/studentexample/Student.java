@@ -10,12 +10,13 @@ package studentexample;
  */
 public class Student {
     private String name; //encapsulation
+    private String progName;
     private int marks; 
+    private int semesterNum;
 
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -23,10 +24,21 @@ public class Student {
     public int getSid() {
         return marks;
     }
-
     public void setSid(int marks) {
         this.marks = marks;
     }
     
+    public int getSemesterNum() {
+        return semesterNum;
+    }
+    public void setSemesterNum(int semesterNum) {
+        this.semesterNum = semesterNum;
+    }
     
+    public String getProgName() {
+        return progName;
+    }
+    public void setProgName(String progName) {
+        this.progName = progName;
+    }
 }
