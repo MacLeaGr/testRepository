@@ -13,6 +13,7 @@ public class Student {
     private String progName;
     private int marks; 
     private int semesterNum;
+    private int testUpdate;
 
     public String getName() {
         return name;
